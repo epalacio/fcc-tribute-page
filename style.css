@@ -78,13 +78,22 @@ nav ul li a:visited {
 	margin-bottom: 5px;
 }
 
-
-/* -*-*-*- */
-
-img {
-	max-width: 60px;
-	height: auto;
+/* Intro */
+#intro {
+	background-color: #fff;
+	border-radius: 2px;
+	margin: 0px 30px 20px 30px;
+	padding: 20px;
+	text-align: center;
 }
+
+#intro img {
+	border-radius: 4px;
+	height: auto;
+	padding-bottom: 10px;
+	max-width: 300px;
+}
+
 
 
  /* Small devices (landscape phones, 576px and up) */
@@ -93,10 +102,6 @@ img {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-	/* Title */
-	/* #title {
-		width: 94vw;
-	} */
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -105,8 +110,8 @@ img {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-	/* Title */
-	/* #title {
-		width: 96vw;
-	} */
+	/* Intro */
+	#intro img {
+		max-width: 350px;
+	}
 }
