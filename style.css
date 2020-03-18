@@ -29,6 +29,16 @@ body {
 	font-size: 18px;
 }
 
+h1 {
+	font-size: 40px;
+	margin-bottom: 5px;
+}
+
+h2 {
+	font-size: 28px;
+	padding: 15px 0;
+}
+
 /* NavBar */
 nav ul {
 	background: #fff;
@@ -73,11 +83,6 @@ nav ul li a:visited {
 	/* width: 92vw; */
 }
 
-#title h1 {
-	font-size: 35px;
-	margin-bottom: 5px;
-}
-
 /* Intro */
 #intro {
 	background-color: #fff;
@@ -102,9 +107,11 @@ nav ul li a:visited {
 	line-height: 1.8;
 }
 
-#timeline h2 {
-	font-size: 28px;
-	padding: 20px 0;
+/* Quotes */
+#quotes {
+	line-height: 1.6;
+	margin-bottom: 50px;
+	text-align: center;
 }
 
 
