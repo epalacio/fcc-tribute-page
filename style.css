@@ -122,6 +122,9 @@ nav ul li a:visited {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+	#timeline {
+		max-width: 600px;
+	}
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
