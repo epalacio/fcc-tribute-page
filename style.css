@@ -9,7 +9,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+figure, figcaption, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -37,6 +37,10 @@ h1 {
 h2 {
 	font-size: 28px;
 	padding: 15px 0;
+}
+
+a {
+	text-decoration: none;
 }
 
 /* NavBar */
@@ -116,6 +120,19 @@ nav ul li a:visited {
 	text-align: center;
 }
 
+/* Footer */
+#footer {
+	background-color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+#footer a,
+#footer a:link,
+#footer a:visited {
+	color: #1985a1;
+	font-weight: bold;
+}
 
 
  /* Small devices (landscape phones, 576px and up) */
